@@ -2,6 +2,14 @@
 
 中国节假日静态json数据
 
+使用来替换Jubal的快捷指令「中国法定节假日自动关闹钟 1.1」中的API接口，目前调用格式 [https://cdn.jsdelivr.net/gh/ryuzheng/ChineseHoliday/holiday/年/月/日.json](https://cdn.jsdelivr.net/gh/ryuzheng/ChineseHoliday/holiday/年/月/日.json)（jsdelivr CDN，国内推荐）或者[https://raw.githubusercontent.com/ryuzheng/ChineseHoliday/master/holiday/年/月/日.json](https://raw.githubusercontent.com/ryuzheng/ChineseHoliday/master/holiday/年/月/日.json)
+
+修改后的快捷指令链接为[中国法定节假日自动关闹钟 1.1.1](https://www.icloud.com/shortcuts/6553fb19483543b4a147bfdb06b36df2)，只修改了调用的API地址，设置方法请参考[不用羡慕安卓！iOS13.1 + 快捷指令 原生实现中国法定节假日闹钟](https://zhuanlan.zhihu.com/p/85984676)，感谢Jubal。
+
+另外Jubal已更新基于日历的本地版本，[iOS 自定义闹钟 —— 中国法定节假日 (升级版）](https://zhuanlan.zhihu.com/p/138316230)
+
+-----
+
 json格式参照[http://timor.tech/api/holiday/info](http://timor.tech/api/holiday/info)的数据格式，但该接口目前已不可访问，因此自己手动生成了2020年的json；
 
 原接口的数据定义
